@@ -1,8 +1,9 @@
 import { _home_page } from './Home.js';
 import { header_side } from './header.js';
 import { _story_ } from './Story.js';
-import { _Mp_ } from './MP.js';
-let pages_list = [_home_page,_story_,_Mp_];
+import { _Mp_ } from './MP.js'; 
+import { _Np_ } from './NP.js';
+let pages_list = [_home_page,_story_,_Mp_,_Np_];
 let container = document.createElement('div'); // Create and append main container to the body
 container.className = 'main-container';
 
