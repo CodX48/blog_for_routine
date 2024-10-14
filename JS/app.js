@@ -1,4 +1,4 @@
-import { _home_page } from './Home.js';
+import { _home_page } from './home_page/Home.js';
 import { header_side } from './header.js';
 import { _story_ } from './Story.js';
 import { _Mp_ } from './MP.js'; 

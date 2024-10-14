@@ -11,11 +11,15 @@
         margin-top: 50px;
         list-style-type: none;
     }
+
+    .sugg-div a{
+        text-decoration: none;
+    }
     
     .sugg-div h4{
     width: 150px;
     margin: 20px;
-    cursor: pointer;
+    color: black;
     }
     
     .sugg-div h4:hover{
@@ -28,7 +32,6 @@
     .main-container{
         display: flex;
         width: 100%;
-        margin: 50px auto;
     }
     
     .home {
@@ -40,15 +43,51 @@
     }
     
     .home-top-page{
-        display: flex;
         margin: auto;
-        
         width: 70%;
         margin: 50px 0px;
     }
+    .intro-sugg-cont{
+        display: flex;
+        margin: auto;
+    }
+
+    .resorce-cont{
+        display: flex;
+        background-color: #f0f0f0;
+        align-items: center;
+        padding: 50px;
+        margin: 50px;
+    }
+    .resorce-cont ul li{
+        list-style-type: none;
+        padding: 100px;
+        margin: 50px 0px;
+        border-bottom: 1px solid;
+    }
+    .resorce-cont ul li h3{
+        font-size: 27px;
+        font-weight: 700;
+        color: rgb(60, 147, 60);
+    }
+    .resorce-cont ul li p{
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .resorce-cont ul li a{
+        font-weight: 600;
+        color: rgb(60, 147, 60);
+        text-decoration: none;
+    }
+    .resorce-cont ul li a:hover{
+        text-decoration: underline;
+    }
+
     .intro-mess{
         padding: 100px;
         background-color: #f0f0f0;
+        margin-right: 100px;
     }
     .intro-mess h1{
         font-weight: 900;
@@ -62,7 +101,7 @@
     }
     
     .home-bot-page{
-        width: 95%;
+        width: 70%;
         margin: auto;
         height: 100vh;
         
