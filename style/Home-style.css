@@ -212,3 +212,82 @@
 .active ul li:hover h4{
     color: rgb(59, 84, 59);
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-image: linear-gradient( #ffffff00, rgba(193, 255, 193, 0.627));
+    color: rgba(40, 5, 40, 0.955);
+    width: 100%;
+    padding: 15px 20%;
+}
+footer *{
+    color: rgba(0, 0, 0, 0.705);
+    font-weight: 600;
+}
+.footer-upder , .footer-mid , .footer-bot{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.footer-upder{
+    margin-bottom: 50px;
+}
+.footer-upder h3{
+    font-size: 70px;
+    color:  rgb(60,147,60);
+    text-shadow: 0px 0px 15px rgba(98, 110, 98, 0.342);
+}
+.footer-upder a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(60,147,60);
+    margin: 0px 20px;
+    z-index: 1;
+}
+.footer-upder a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: rgb(60,147,60);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease-in-out;   
+}
+.footer-upder a:hover::after{
+    width: 100%;
+}
+
+.footer-mid{
+    display: flex;
+    align-items:flex-end;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.footer-mid p{
+    font-size: 16px;
+}
+.footer-bot{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-bot div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-bot div span{
+    margin-right: 10px;
+}
+.footer-bot div h3{
+    font-size: 18px;
+    color: rgb(60,147,60);
+
+}
